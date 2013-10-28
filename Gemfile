@@ -8,6 +8,6 @@ gem "coffee-rails", "~> 4.0.0"
 gem "jquery-rails"
 gem "faker"
 
-group :development do
+group :development, :test do
   gem "rails-default-database"
 end
