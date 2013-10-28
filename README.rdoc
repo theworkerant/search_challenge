@@ -1,6 +1,0 @@
-## Setup
-
-```bash
-$ bundle
-$ rake db:setup db:seed
-```
