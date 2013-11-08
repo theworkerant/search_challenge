@@ -1,0 +1,11 @@
+= form_for "search", url:searches_path, method: :get do |form|
+
+  = form.text_field :search
+  = form.submit "Search me"
+
+- if @results.present?
+  ul
+    - @results.each do |result|
+      li
+        = result.title 
+        = "( #{result.class.to_s} )"
